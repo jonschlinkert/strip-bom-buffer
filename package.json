@@ -22,6 +22,7 @@
     "node": ">=0.10.0"
   },
   "scripts": {
+    "stryker": "stryker run",
     "test": "mocha"
   },
   "dependencies": {
@@ -29,6 +30,9 @@
     "is-utf8": "^0.2.1"
   },
   "devDependencies": {
+    "@stryker-mutator/core": "^2.4.0",
+    "@stryker-mutator/html-reporter": "^2.4.0",
+    "@stryker-mutator/javascript-mutator": "^2.4.0",
     "gulp-format-md": "^0.1.11",
     "mocha": "^3.2.0"
   },
