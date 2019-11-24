@@ -22,6 +22,7 @@
     "node": ">=0.10.0"
   },
   "scripts": {
+    "stryker": "stryker run",
     "test": "mocha"
   },
   "dependencies": {
