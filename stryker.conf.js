@@ -5,6 +5,6 @@ module.exports = function(config) {
     reporters: ["html", "clear-text", "progress"],
     testRunner: "command",
     transpilers: [],
-    coverageAnalysis: "all"
+    coverageAnalysis: "none"
   });
 };
